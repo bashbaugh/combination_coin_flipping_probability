@@ -3,6 +3,7 @@ from fractions import Fraction
 import sys
 from math import factorial
 
+print("welcome!")
 #this is the command line argument version:
 
 # try:
@@ -34,3 +35,7 @@ print("calculating...\n")
 print("The probability that you will get " + str(num_heads) + " heads when you flip " + str(num_coins) + " coins, which \
 each (seperately) have a " + str(prob_head * 100) + "% probability of landing on heads, is:\n")
 print(str(calculate()) + " or " + str(Fraction(calculate())))
+try:
+    end = input("press enter to exit")
+except:
+    print("goodbye!")
