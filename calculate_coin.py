@@ -5,7 +5,7 @@ from math import factorial
 
 print("welcome!")
 #this is the command line argument version:
-
+#
 # try:
 #     num_coins = int(sys.argv[1]or input("number of coins")) #the number of coins
 #     num_heads = int(sys.argv[2] or input("number of heads your checking the probability (of that number turning up) for")) #the number of heads your checking the probability for
@@ -15,7 +15,7 @@ print("welcome!")
 #  checking probability for] [chance that each single coin turns up heads (THIS MUST BE A DECIMAL)]")
 #
 #     exit()
-
+#
 # this is the input version:
 
 num_coins = int(input("enter number of coins:")) #the number of coins
